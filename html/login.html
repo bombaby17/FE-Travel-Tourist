@@ -1,0 +1,80 @@
+<hr>
+<style>
+    .ftco-section {
+   padding: 1em 0; }
+ 
+ .ftco-no-pt {
+   padding-top: 0; }
+ 
+ .ftco-no-pb {
+   padding-bottom: 0; }
+   .img {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; }
+ 
+ .wrap {
+   width: 100%;
+   overflow: hidden;
+   background: #fff;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+   -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+   box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24); }
+   .wrap .img {
+     height: 270px; }
+ 
+ .login-wrap {
+   position: relative; }
+   .login-wrap h3 {
+     font-weight: 300; }
+     @media only screen and (max-width: 768px) {
+         .wrap .img {
+     height: 190px; }
+     }
+     input.ng-invalid {
+            border: 1px solid red;
+            
+        }
+ </style>
+ <body>
+     <section class="ftco-section">
+         <div class="container">
+             <div class="row justify-content-center">
+                 <div class="col-md-7 col-lg-5">
+                     <div class="wrap">
+                         <div class="img" style="background-image: url(img/Logo.png);"></div>
+                         <div class="login-wrap p-4 p-md-5">
+                       <div class="d-flex">
+                           <div class="w-100">
+                               <h3 class="mb-4">Đăng Nhập</h3>
+                           </div>
+                          </div>
+                          <form action="#" class="signin-form" name="frmsd">
+                              <div class="form-group mt-3">
+                                <label class="form-control-placeholder mb-2 mt-2" for="username">Tên Đăng Nhập</label>
+                               <input type="text" name="txtNames" class="form-control nutdangky rounded" required ng-model="info.name">
+                              </div>
+                              <label ng-show="frmsd.txtNames.$invalid" class="text-danger">Nhập Tên Đăng Nhập!!!</label>
+                     <div class="form-group">
+                      <label class="form-control-placeholder mb-2 mt-4" for="password">Mật Khẩu</label>
+                       <input id="password-field" name="txtPass" type="password" class="form-control" required ng-model="info.pass">
+                     </div>
+                     <label ng-show="frmsd.txtPass.$invalid" class="text-danger">Nhập Mật Khẩu!!!</label>
+                     <div class="form-group">
+                         <button type="button" class="form-control btn btn-primary rounded submit px-3 mb-4 mt-4" ng-click="login()">Đăng Nhập</button>
+                     </div>
+                   </form>
+                   <p class="text-center">Chưa Có Tài Khoản? <a data-toggle="tab" href="#!signup" style="text-decoration: none;">Đăng Ký</a></p>
+                 </div>
+               </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+    <hr>
+  <br>

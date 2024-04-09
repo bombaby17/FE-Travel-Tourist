@@ -1,0 +1,100 @@
+<header>
+  <div class="container-fluid d-none d-sm-block">
+    <div class="row justify-content-end ps-1">
+        <div class="col-sm-6 col-md-6 ">
+            <ul class="nav d-flex justify-content-center">
+                <li class="nav-item">
+                  <a class="nav-link active text-white fw-medium align-middle" href="#">MEDIA & INDUSTRY</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white fw-medium" href="#">MEETING & EVENT</a>
+                </li>
+              </ul>
+        </div>
+        <div class="col-sm-6 col-md-6 mt-1">
+            <ul class="nav d-flex justify-content-center">
+            <li class="nav-item menu">
+              <a class="nav-link active text-dark " aria-current="page" href="#" style="border-style: solid;border-color: #28323C;border-width: 0px 1px 0px 1px;"><i class="bi bi-facebook img-thumbnail rounded-circle border border-1 border border-dark"></i></a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link active text-dark" aria-current="page" href="#" style="border-style: solid;border-color: #28323C;border-width: 0px 1px 0px 1px;"><i class="bi bi-instagram img-thumbnail rounded-circle border border-1 border border-dark"></i></a>
+            </li>
+            <li class="nav-item menu">
+            <a class="nav-link active text-dark" aria-current="page" href="#" style="border-style: solid;border-color: #28323C;border-width: 0px 1px 0px 1px;"><i class="bi bi-youtube img-thumbnail rounded-circle border border-1 border border-dark"></i></a>
+            </li>
+            <li class="nav-item menu">
+                <a class="nav-link active text-dark" aria-current="page" href="#" style="border-style: solid;border-color: #28323C;border-width: 0px 1px 0px 1px;"><i class="bi bi-heart img-thumbnail rounded-circle border border-1 border border-dark"></i></a>
+            </li>
+            <li class="nav-item menu">
+              <input class="form-control py-1 rounded-pill mr-1 pr-5 ms-2" type="search" value="Search">
+            </li>
+          </ul></div>
+    </div>
+</div>
+<!--Navbar-->
+<nav class="navbar navbar-expand-lg bg-body-light text-nowrap flex-nowrap bg-transparent">
+    <div class="container bg-transparent">
+      <a class="navbar-brand text-center" href="#!home"><img src="img/Logo.png" width="75%"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="sidebar offcanvas offcanvas-end" tabindex="999" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">JAPAN TOURIST</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-4">
+            <li class="nav-item tag">
+              <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!home">TRANG CHỦ</a>
+            </li>
+            <li class="nav-item tag">
+                <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!about">GIỚI THIỆU</a>
+            </li>
+            <li class="nav-item tag">
+              <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!product">TOUR DU LỊCH</a>
+            </li>
+            <li class="nav-item tag">
+<a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!contact">LIÊN HỆ</a>
+            </li>
+            <li class="nav-item tag">
+                <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#">GÓP Ý</a>
+            </li>
+            <li class="nav-item dropdown tag">
+                <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  TIN DU LỊCH
+                </a>
+                <ul class="dropdown-menu ">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li>
+                    <hr class="dropdown-divider">
+                  </li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item tag position-relative">
+                <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!cart">GIỎ HÀNG</a>
+                
+            </li>
+            <li class="nav-item tag">
+                <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#">BLOG</a>
+            </li>
+            <li class="nav-item tag" ng-show="!isLogin">
+                <a class="nav-link active text-dark fw-semibold" aria-current="page" href="#!login">ĐĂNG NHẬP</a>
+            </li>
+            <li class="nav-item dropdown tag" ng-show="isLogin">
+              <a class="nav-link dropdown-toggle text-dark fw-semibold" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                TÀI KHOẢN
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#" ng-click="logout()">ĐĂNG XUẤT</a></li>
+              </ul>
+          </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>

@@ -1,0 +1,106 @@
+<hr>
+<style>
+    .ftco-section {
+   padding: 1em 0; }
+ 
+ .ftco-no-pt {
+   padding-top: 0; }
+ 
+ .ftco-no-pb {
+   padding-bottom: 0; }
+   .img {
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center; }
+ 
+ .wrap {
+   width: 100%;
+   overflow: hidden;
+   background: #fff;
+   border-radius: 5px;
+   -webkit-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+   -moz-box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24);
+   box-shadow: 0px 10px 34px -15px rgba(0, 0, 0, 0.24); }
+   .wrap .img {
+     height: 270px; }
+ .login-wrap {
+   position: relative; }
+   .login-wrap h3 {
+     font-weight: 300; }
+     @media only screen and (max-width: 768px) {
+         .wrap .img {
+     height: 190px; }
+     }
+     input.ng-invalid {
+            border: 1px solid red;
+            
+        }
+ </style>
+ <body>
+     <section class="ftco-section">
+         <div class="container">
+             <div class="row justify-content-center">
+                 <div class="col-md-7 col-lg-5">
+                     <div class="wrap">
+                         <div class="img" style="background-image: url(img/Logo.png);"></div>
+                         <div class="login-wrap p-4 p-md-5">
+                       <div class="d-flex">
+                           <div class="w-100">
+                               <h3 class="mb-4">Đăng Ký</h3>
+                           </div>
+                       </div>
+                              <form action="#" class="signin-form" name="frmsd">
+                            <div class="form-group mt-3">
+                              <label class="form-control-placeholder mb-2 mt-2" for="username">Tên Đăng Nhập</label>
+                              <input type="text" name="txtNames" class="form-control nutdangky rounded" required ng-model="info.name">
+                            </div>
+                            <label ng-show="frmsd.txtNames.$invalid" class="text-danger">Nhập Tên Đăng Nhập!!!</label>
+                      <div class="form-group">
+                        <label class="form-control-placeholder mb-2 mt-4" for="password">Mật Khẩu</label>
+                        <input id="password-field" name="txtPass" type="password" class="form-control" required ng-model="info.pass" ng-change="checkPasswordMatch()">
+                      </div>
+                      <label ng-show="frmsd.txtPass.$invalid" class="text-danger">Nhập Mật Khẩu!!!</label>
+                      <div class="form-group">
+                        <label class="form-control-placeholder mb-2 mt-4" for="password">Xác Nhận Mật Khẩu</label>
+                        <input id="password-field" name="txtPassConf" type="password" class="form-control" required ng-model="info.passconf" ng-change="checkPasswordMatch()">
+                        </div>
+                        <label ng-show="frmsd.txtPassConf.$invalid" class="text-danger">Xác Nhận Lại Mật Khẩu!!!</label>
+                        <label ng-show="passwordMatch" class="text-success">Mật khẩu khớp!</label>
+                        <label ng-show="!passwordMatch && info.passconf.length > 0" class="text-danger">Mật khẩu không khớp!</label>
+                        <div class="form-group mt-3">
+                          <label class="form-control-placeholder mb-2 mt-2" for="email">Email</label>
+                          <input type="email" name="email" class="form-control nutdangky rounded" required ng-model="info.email">
+                        </div>
+                        <label ng-show="frmsd.email.$invalid" class="text-danger">Nhập Email!!!</label>
+                        <div class="form-group mt-3">
+                          <label class="form-control-placeholder mb-2 mt-2" for="sdt">Số Điện Thoại</label>
+                          <input type="text" name="sdt" class="form-control nutdangky rounded" ng-pattern="phoneNumbr" placeholder="+84" ng-model="info.sdt">
+                        </div>
+                        <label ng-show="frmsd.sdt.$error.pattern" class="text-danger">Sai Định Dạng!!!</label>
+                        <div class="form-group mt-4">
+                          <label>Giới Tính</label>
+                          <div class="radio mt-3">
+                              <label><input type="radio" ng-model="info.gender" value="NAM"> Nam </label>
+                              <label><input type="radio" ng-model="info.gender" value="NỮ"> Nữ </label>
+                          </div>
+                      </div>
+                      <div class="form-group mt-3">
+                        <input type="checkbox" ng-model="agree">
+                        <span>Đồng với các điều khoản</span>
+                    </div>
+                      <div class="form-group">
+                          <button type="button" class="form-control btn btn-primary rounded submit px-3 mb-4 mt-4" ng-click="reg()">Đăng Ký</button>
+                      </div>
+                      
+                    </form>
+                   <p class="text-center">Đã Có Tài Khoản? <a data-toggle="tab" href="#!login" style="text-decoration: none;">Đăng Nhập</a></p>
+                 </div>
+               </div>
+                 </div>
+             </div>
+         </div>
+     </section>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

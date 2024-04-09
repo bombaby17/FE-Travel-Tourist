@@ -1,0 +1,253 @@
+<style>
+    .icon{
+      margin-right:15px!important;
+    }
+    span{
+      font-size: 20px;
+    }
+    @media only screen and (max-width:768px){
+      .anh{
+        margin-left: -8px!important;
+      }
+    }
+  </style>
+  <body>
+    <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-bs-ride="carousel" data-interval="1000">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+<button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div data-aos="fade-up"
+     data-aos-duration="1000">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/banner1.jpg" class="d-block w-100 img-caro" alt="..." height="650px">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner2.jpg" class="d-block w-100 img-caro" alt="..." height="650px">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img/banner3.jpg" class="d-block w-100 img-caro" alt="..."  height="650px">
+            <div class="carousel-caption d-none d-md-block">
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <br>
+    <br>
+    <div class="container">
+       <form class="border 1">
+          <div class="row ms-1">
+            <div class="col-lg-6 mt-2 mb-2">
+              <img src="{{detailPro.image}}" class="img-fluid anh"> 
+            </div>
+            <div class="col-lg-6">
+              <div class="mb-3">
+                <label style="font-family: Roboto, sans-serif;font-weight: 600;font-size: 25px;color: red;">{{detailPro.name}}</label>
+                <br>
+                <br>
+                <label style="font-family: Roboto, sans-serif;font-weight: 600;font-size: 25px;color: red;">{{detailPro.price |number}} đ</label>
+                <br>
+                <br>
+                <button type="button" class="btn btn-success rounded-bottom text-white ">Tư Vấn</button> <button type="button" class="btn btn-success rounded-bottom text-white ms-2">Đặt Tour</button>
+                <br>
+                <br>
+                <i class="bi bi-facebook text-primary  fs-3 text icon"></i>
+                <i class="bi bi-twitter-x text-dark  fs-3 text icon"></i>
+                <i class="bi bi-skype text-primary  fs-3 text icon"></i>
+                <i class="bi bi-reddit fs-3 text icon" style="color: #ff7c4d;"></i>
+              </div>
+            </div>
+          </div>
+       </form>
+    </div>
+    <h3 class="mt-3 mb-3 text-center" style="font-family: Roboto, sans-serif;font-weight: 1000; color: red;font-size: 36px;">ĐÓN XUÂN HÀN QUỐC MÙA HOA ANH ĐÀO 2024</h3>
+    <h3 class="mt-3 mb-3 text-center lh-lg" style="font-family: Roboto, sans-serif;font-weight: 1000; color: red;font-size: 28px;">SEOUL – ĐẢO NAMI – EVERLAND</h3>
+    <div class="container border 1">
+      <ul class="nav nav-pills mb-3 mt-2" id="pills-tab" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Thông Tin Chung</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ngày 1: Sài Gòn – Seoul</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Ngày 2: Cảnh Phúc Cung – Nhà Xanh</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact1" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Ngày 3: Seoul – Everland</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact2" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Ngày 4:  Seoul – Nami</button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact3" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Ngày 5: Seoul - Sài Gòn</button>
+        </li>
+      </ul>
+      <div class="tab-content" id="pills-tabContent">
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+          <span><h5 style="font-family: Roboto, sans-serif;font-weight: 1000;" class="lh-lg">Thời gian: 05 ngày 04 đêm<br>
+            Phương tiện: Hàng không Vietnam Airlines<br>
+            Khởi hành: Tối 23/03, 26/03, 30/03/2024<br>
+            GIÁ CHỈ TỪ:  18,990,000 đ/khách</h5></span>
+        </div>
+        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+          <span><h5 style="font-family: Roboto, sans-serif;font-weight: 1000; color: red;">NGÀY 1: SÀI GÒN - SEOUL (Ăn nhẹ tại sân bay)</h5>
+            <strong>23:00</strong> Quý khách tập trung tại sân bay <strong>Tân Sơn Nhất</strong>, hướng dẫn viên đón du khách tại ga đi Quốc Tế, sau đó làm thủ tục cho đoàn đáp chuyến bay đi <strong>Seoul Hàn Quốc</strong>, trên chuyến bay7C4704 SGN-ICN 02:00-09:20 của hãng hàng không Jeju Air. Quý khách nghỉ đêm trên máy bay.
+          <br><br></span>
+        </div>
+        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+          <span><h5 style="font-family: Roboto, sans-serif;font-weight: 1000; color: red;">NGÀY 2: CUNG ĐIỆN CẢNH PHÚC - BLUE HOUSE (Ăn Sáng/Trưa/Tối)</h5>
+            <strong>06:00</strong>: Quý khách thức giấc và ăn sáng trên máy bay.<br>
+            <strong>07:10</strong>: Đoàn đến sân bay Incheon, làm thủ tục nhập cảnh. Tiếp tục hành trình về thủ đô Seoul tham quan:<br>
+            <strong>- Cảnh Phúc Cung</strong>: cung điện hoàng gia được xây dựng vào năm 1395 dưới triều vua Taejo thuộc triều đại Joseon và được bảo tồn gần như nguyên vẹn.
+          </span>
+          <br>
+          <br>
+          <img src="./img/pcc.png" class="img-fluid">
+          <span>
+            <strong>- Viện bảo tàng truyền thống dân gian Quốc Gia Hàn Quốc</strong>: Nơi lưu giữ và bảo tồn các di sản văn hóa của Triều Tiên với trên 10.000 mẫu vật phản ánh đời sống, lịch sử, các nghi lễ, tôn giáo, cách bài trí nhà cửa và các đồ vật trong các gia đình Triều Tiên truyền thống.
+          </span>
+          <br>
+          <br>
+          <img src="./img/vienbaotang.png" class="img-fluid">
+          <span>
+              <strong>- Phủ Tổng Thống Hàn Quốc (hay còn gọi là Nhà Xanh)</strong>: được xây dựng trên một khuôn viên rộng lớn với kiến trúc truyền thống Hàn Quốc kết hợp yếu tố hiện đại, từng là nơi làm việc của tổng thống Hàn Quốc cho đến năm 2022.
+          </span>
+          <br>
+          <br>
+          <img src="./img/nhaxanh.png" class="img-fluid">
+          <span>
+            <strong>12:00</strong>: Đoàn ăn trưa tại nhà hàng. Đoàn tiếp tục tham quan:
+            <strong>- Quảng trường Quảng Hòa Môn</strong>: điểm nhấn chính cho thành phố, quảng trường tọa lạc trên mảnh đất rộng 340m, dài 557m với các công trình đa dạng như đài phun nước, thảm hoa, cây xanh ... Đây là một trong những niềm tự hào của người dân Seoul.
+          </span>
+          <br>
+          <br>
+          <img src="./img/qt.png" class="img-fluid">
+          <span>
+            <strong>- Suối Cheonggyecheon</strong> con suối nhân tạo trong mát dài 5.8 km giữa lòng thủ đô Seoul, cải tạo một dòng suối cạn trở nên một công trình cảnh quan môi trường tuyệt đẹp xuyên qua thành phố.
+          </span>
+          <br>
+          <br>
+          <img src="./img/suoi.png" class="img-fluid">
+          <span>
+            <strong>18:30</strong>: Đoàn dùng cơm tối. Kết thúc 1 ngày trải nghiệm thú vị, quý khách về khách sạn nhận phòng và tự do nghỉ ngơi.
+          </span>
+          <br>
+          <br>
+        </div>
+        <div class="tab-pane fade" id="pills-contact1" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="pills-contact2" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+        <div class="tab-pane fade" id="pills-contact3" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+      </div>
+    </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+        var owl = $('.owl-one');
+        owl.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:2500,
+        autoplayHoverPause:false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            400:{
+                items:1,
+                nav:false
+            },
+            700:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            }
+        }
+      });
+      var owl1 = $('.owl-two');
+        owl1.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            400:{
+                items:1,
+                nav:false
+            },
+            700:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            }
+        }
+      });
+      var owl2 = $('.owl-three');
+        owl2.owlCarousel({
+        items:4,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:2000,
+        autoplayHoverPause:false,
+        responsiveClass:true,
+        responsive:{
+            0:{
+                items:1,
+                nav:true
+            },
+            400:{
+                items:1,
+                nav:false
+            },
+            700:{
+                items:2,
+                nav:false
+            },
+            1000:{
+                items:4,
+                nav:true,
+                loop:true
+            }
+        }
+      });
+      AOS.init();
+        </script>
+      </body>
+    </html>

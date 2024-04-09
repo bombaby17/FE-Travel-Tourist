@@ -1,0 +1,145 @@
+[
+    {
+        "id":"p1",
+        "image":"./img/card1.jpg",
+        "name":"CUNG ĐƯỜNG VÀNG MÙA HOA ANH ĐÀO TOKYO - HAKONE",
+        "price":38880000,
+        "location":"Nhật Bản"
+    },
+    {
+        "id":"p2",
+        "image":"./img/card2.jpg",
+        "name":"TOUR TẾT NGUYÊN ĐÁN 2024 TOKYO - HAKONE",
+        "price":45880000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p3",
+        "image":"./img/card3.jpg",
+        "name":"NGẮM HOA TỬ ĐẰNG VÀ HOA CHI ANH 2024",
+        "price":38880000,
+        "location":"Nhật Bản"
+    },
+    {
+        "id":"p4",
+        "image":"./img/card4.jpg",
+        "name":"TOUR NGẮM HOA ANH ĐÀO TOKYO – YAMANASHI – TOYOHASHI – KYOTO",
+        "price":38880000,
+        "location":"Nhật Bản"
+    },
+    {
+        "id":"p5",
+        "image":"./img/1R1A0190.png",
+        "name":"CUNG ĐƯỜNG VÀNG MÙA HÈ TOKYO – YAMANASHI – TOYOHASHI – KYOTO",
+        "price":38880000,
+        "location":"Nhật Bản"
+    },
+    {
+        "id":"p6",
+        "image":"./img/card5.jpg",
+        "name":"NGẮM HOA KAWAZU SAKURA 2024 TẾT NGUYÊN ĐÁN 2024 + LỄ 14/2",
+        "price":42880000,
+        "location":"Nhật Bản"
+    },
+    {
+        "id":"p7",
+        "image":"./img/card6.jpg",
+        "name":"SAKURA SEASON 2024 - OSAKA – KOBE – KYOTO – FUJI – TOKYO 6N5Đ",
+        "price":38880000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p8",
+        "image":"./img/card7.jpg",
+        "name":"TẾT GIÁP THÌN - TOKYO – YAMANASHI – TOYOHASHI – KYOTO – OSAKA – KOBE",
+        "price":43880000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p9",
+        "image":"./img/card8.jpg",
+        "name":"ĐÓN NĂM MỚI TẾT GIÁP THÌN: SEOUL – ĐẢO NAMI – TRƯỢT TUYẾT – LOTTE WORLD",
+        "price":23990000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p10",
+        "image":"./img/card9.jpg",
+        "name":"ĐÓN NĂM MỚI GIÁP THÌN 2024 SEOUL – ĐẢO NAMI – TRƯỢT TUYẾT – LOTTE WORLD",
+        "price":38880000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p11",
+        "image":"./img/card10.jpg",
+        "name":"VN _ĐÓN XUÂN HÀN QUỐC MÙA HOA ANH ĐÀO 2024 SEOUL – ĐẢO NAMI – EVERLAND",
+        "price":18990000,
+        "location":"Hàn Xẻng"
+    },
+    {
+        "id":"p12",
+        "image":"./img/card11.jpg",
+        "name":"JEJU_ĐÓN XUÂN HÀN QUỐC MÙA HOA ANH ĐÀO 2024 SEOUL – ĐẢO NAMI – EVERLAND",
+        "price":16990000
+    },
+    {
+        "id":"p13",
+        "image":"./img/card12.jpg",
+        "name":"TẾT GIÁP THÌN 2024 - LOTTE WORLD – TẮM SAUNA – TRƯỢT TUYẾT – SHOPPING THẢ GA",
+        "price":24490000
+    },
+    {
+        "id":"p14",
+        "image":"./img/13.jpg",
+        "name":"ĐÓN NĂM MỚI GIÁP THÌN 2024 SEOUL – ĐẢO NAMI – TRƯỢT TUYẾT – LOTTE WORLD 5N4Đ",
+        "price":23590000
+    },
+    {
+        "id":"p15",
+        "image":"./img/card14.jpg",
+        "name":"MÙA HOA TUYẾT HÀN QUỐC – SEOUL – ĐẢO NAMI – TRƯỢT TUYẾT – LOTTE WORLD",
+        "price":14990000
+    },
+    {
+        "id":"p16",
+        "image":"./img/card13.jpg",
+        "name":"TRỊNH CHÂU – KHAI PHONG – ĐĂNG PHONG LẠC DƯƠNG – TAM MÔN HIỆP – TÂY AN",
+        "price":18990000
+    },
+    {
+        "id":"p17",
+        "image":"./img/card15.jpg",
+        "name":"TRỊNH CHÂU – KHAI PHONG – ĐĂNG PHONG – TAM MÔN HIỆP – LÂM ĐỒNG – TÂY AN",
+        "price":19990000
+    },
+    {
+        "id":"p18",
+        "image":"./img/card16.jpg",
+        "name":"THƯỢNG HẢI – HÀNG CHÂU – TÔ CHÂU (TÀU SIÊU TỐC 380KM/H) – BẮC KINH 7N6Đ",
+        "price":23990000
+    },
+    {
+        "id":"p19",
+        "image":"./img/card17.jpg",
+        "name":"HỒNG KÔNG – THIỀN VIỆN CHÍ LIÊN – TỰ DO MUA SẮM HỒNG KÔNG – CV DISNEYLAND",
+        "price":27900000
+    },
+    {
+        "id":"p20",
+        "image":"./img/card18.jpg",
+        "name":"TRUNG QUỐC – THƯỢNG HẢI - HÀNG CHÂU - TÔ CHÂU - PHỐ CỔ TÂY ĐƯỜNG - HÀN TỰ SƠN",
+        "price":13990000
+    },
+    {
+        "id":"p21",
+        "image":"./img/card19.jpg",
+        "name":"ĐÀI LOAN - ĐÀI TRUNG – CAO HÙNG – ĐÀI BẮC – THÁP LONG HỔ – ĐẦM LIÊN TRÌ",
+        "price":23590000
+    },
+    {
+        "id":"p22",
+        "image":"./img/card20.jpg",
+        "name":"TRUNG QUỐC – TRỊNH CHÂU – THIẾU LÂM TỰ - KHAI PHONG PHỦ - LẠC DƯƠNG 5N5Đ",
+        "price":16990000
+    }
+]
