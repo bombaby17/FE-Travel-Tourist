@@ -163,7 +163,7 @@
     <h3 class="mt-3 mb-4 text-center" style="font-family: Roboto, sans-serif;font-weight: 700;">Các Tour Du Lịch</h3>
     <div class="container">
         <div class="row">
-            <article class="col-sm-10 hinhanh">
+            <article class="col-md-10 hinhanh">
                 <div class="row text-center">
                     <div class="col-sm-4" ng-repeat="x in products | limitTo: 9 : page | filter:search | orderBy:sort | orderBy:sortname | filter:classify">
                           <div class="card mb-3 card1 mx-auto" style="border-radius: 2%">
@@ -210,10 +210,10 @@
                     </ul>
                   </nav>
             </article>
-            <aside-right class="col-sm-2 col-11 hinhanh">
+            <aside-right class="col-md-2 col-11 hinhanh">
                 <div class="row">
                     <div class="card border border-danger border border-3 rounded">
-                        <div class="card-header" style="font-family: Roboto, sans-serif;font-weight: 700;">Tìm Kiếm</div>
+                        <div class="card-header bg-white" style="font-family: Roboto, sans-serif;font-weight: 700;">Tìm Kiếm</div>
                         <div class="card-body bg-white " >
                             <div class="row">
                                 <div class="col-sm-12 ">
@@ -229,24 +229,24 @@
                         </div>
                     </div>
                     <div class="card mt-2 border border-danger border border-3 rounded" >
-                        <div class="card-header" style="font-family: Roboto, sans-serif;font-weight: 700;">Phân Loại</div>
+                        <div class="card-header bg-white" style="font-family: Roboto, sans-serif;font-weight: 700;">Phân Loại</div>
                         <div class="card-body bg-white">
                             <div class="row">
                                 <div class="col-sm-12">
                                     <label for="customRange1" class="form-label">Sắp Xếp</label>
-                                    <div>
-                                        <select class="btn btn-outline-dark ps-0" ng-model="sort"> 
+                                    <div class="text-center">
+                                        <select class="btn btn-outline-dark w-75" ng-model="sort"> 
                                             <option value="price">Từ Thấp Đến Cao</option>
                                             <option value="-price">Từ Cao Đến Đến Thấp</option>
                                         </select>
                                         
                                         <br>
-                                        <select class="btn btn-outline-danger ps-0 mt-3" ng-model="classify.location"> 
+                                        <select class="btn btn-outline-danger w-75 mt-3" ng-model="classify.location"> 
                                             <option value>Tất Cả</option>
                                             <option>Nhật Bản</option>
                                             <option>Hàn Xẻng</option>
                                         </select>
-                                        <select class="btn btn-outline-danger ps-0 mt-3" ng-model="sortname"> 
+                                        <select class="btn btn-outline-danger w-75 mt-3" ng-model="sortname"> 
                                             <option value="name">Từ A-Z</option>
                                             <option value="-name">Từ Z-A</option>
                                         </select>
@@ -256,7 +256,7 @@
                         </div>
                     </div>
                     <div class="card mt-2 border border-danger border border-3 rounded">
-                        <div class="card-header" style="font-family: Roboto, sans-serif;font-weight: 700;">Mục Lục</div>
+                        <div class="card-header bg-white" style="font-family: Roboto, sans-serif;font-weight: 700;">Mục Lục</div>
                         <div class="card-body bg-white">
                             <div class="row">
                                 <div class="col-sm-12 ">
@@ -289,7 +289,7 @@
                         </div>
                     </div>
                     <div class="card mt-2 mb-2 border border-danger border border-3 rounded">
-                        <div class="card-header" style="font-family: Roboto, sans-serif;font-weight: 700;">Mục Lục</div>
+                        <div class="card-header bg-white" style="font-family: Roboto, sans-serif;font-weight: 700;">Mục Lục</div>
                         <div class="card-body bg-white">
                             <div class="row">
                                 <div class="col-sm-12">
